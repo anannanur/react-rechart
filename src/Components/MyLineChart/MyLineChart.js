@@ -52,7 +52,7 @@ const MyLineChart = () => {
                 <Line dataKey="price" stroke="red"></Line>
                 <Line dataKey="sales"stroke='green'></Line>
                 <CartesianGrid  stroke="#ccc" strokeDasharray="5 5"></CartesianGrid>
-                <XAxis dataKey={'name'}></XAxis>
+                <XAxis></XAxis>
                 <YAxis></YAxis>
                 <Tooltip></Tooltip>
             </LineChart>
